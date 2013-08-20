@@ -1,7 +1,7 @@
 {
-  "name": "truthy",
-  "repo": "bredele/truthy",
-  "description": "simple util that return true if truthy",
+  "name": "is",
+  "repo": "bredele/is",
+  "description": "simple assertion utils",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
