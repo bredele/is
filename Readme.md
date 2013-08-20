@@ -9,7 +9,9 @@
 
 ## API
 
-   
+### truthy#(data)
+
+  return true if truthy
 
 ## License
 
