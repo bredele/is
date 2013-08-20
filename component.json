@@ -1,0 +1,14 @@
+{
+  "name": "truthy",
+  "repo": "bredele/truthy",
+  "description": "simple util that return true if truthy",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
