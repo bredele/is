@@ -15,5 +15,6 @@ module.exports.truthy = function(data){
  */
 
 module.exports.defined = function(data){
+  console.log(this);
   return this.truthy(typeof data !== 'undefined');
 };
