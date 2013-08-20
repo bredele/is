@@ -17,12 +17,18 @@
 
   return false if undefined
 
+### is#type(name, data)
+
+  return true if data is type of name
+
+
 ## Example
 ```js
 var is = require('is');
 
 is.truthy(true);
 is.defined(undefined);
+is.type('string', 'something');
 ```
 
 ## License
