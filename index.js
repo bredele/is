@@ -1,10 +1,19 @@
 /**
- * Expose 'truthy'
+ * Expose 'isTruthy'
  */
 
-module.exports = function(data){
+module.exports.truthy = function(data){
   if(data){
     return true;
   }
   return false;
+};
+
+
+/**
+ * Expose 'isDefined'
+ */
+
+module.exports.defined = function(data){
+  return truthy(typeof data !== 'undefined');
 };
