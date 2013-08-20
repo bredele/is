@@ -26,3 +26,12 @@ module.exports.type = function(type, data){
 module.exports.defined = function(data){
   return this.truthy(!this.type('undefined', data));
 };
+
+
+/**
+ * Expose 'isDefined'
+ */
+
+module.exports.instance = function(obj, data){
+  return (data instanceof obj);
+};
